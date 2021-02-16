@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <TextView
-        android:id="@+id/myTextView"
+        android:id="@+id/incoming_data_from_screen_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -21,7 +22,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/sendDataA1"
+        android:id="@+id/data1"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
         android:hint="Say Something..."
@@ -38,6 +39,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sendDataA1" />
+        app:layout_constraintTop_toBottomOf="@+id/data1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
